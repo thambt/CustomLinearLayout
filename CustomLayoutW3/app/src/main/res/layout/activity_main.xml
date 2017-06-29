@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/activity_main_myll"
+        myapp:mygravity="center"
         myapp:background_view="0xFF000000"/>
 
     <Button
