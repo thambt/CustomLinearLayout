@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="MyCheckBox">
+        <attr name="titleText" format="string" />
+        <attr name="detailtext" format="string" />
+        <attr name="checked" format="boolean" />
+        <attr name="background_view" format="integer"/>
+    </declare-styleable>
+</resources>
