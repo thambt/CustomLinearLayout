@@ -48,14 +48,14 @@ public class CustomLinearLAyout extends LinearLayout {
         view4 = (TextView)findViewById(R.id.activity_custom_linearlayout_view4);
         llParaentLayout = (LinearLayout)findViewById(R.id.activity_custom_linearlayout_ll);
 
-        view1.setWidth(1000);
+        /*view1.setWidth(1000);
         view1.setHeight(100);
         view2.setWidth(1000);
         view2.setHeight(100);
         view3.setWidth(1000);
         view3.setHeight(100);
         view4.setWidth(1000);
-        view4.setHeight(100);
+        view4.setHeight(100);*/
 
         if (attrs != null) {
             TypedArray a = context.getTheme().obtainStyledAttributes( // lay chuoi cac thuoc tinh da duoc dinh nghia
