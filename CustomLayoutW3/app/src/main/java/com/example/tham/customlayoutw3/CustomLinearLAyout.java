@@ -92,14 +92,14 @@ public class CustomLinearLAyout extends LinearLayout {
         view3.setAnimation(initAppearAnimation(4000));
         view4.setAnimation(initAppearAnimation(6000));
         llParaentLayout.setOrientation(LinearLayout.HORIZONTAL);
-        view1.setHeight(1000);
+       /* view1.setHeight(1000);
         view1.setWidth(100);
         view2.setHeight(1000);
         view2.setWidth(100);
         view3.setHeight(1000);
         view3.setWidth(100);
         view4.setHeight(1000);
-        view4.setWidth(100);
+        view4.setWidth(100);*/
     }
 
     private void changeVertacal() {
@@ -108,23 +108,23 @@ public class CustomLinearLAyout extends LinearLayout {
         view3.setAnimation(initAppearAnimation(4000));
         view4.setAnimation(initAppearAnimation(6000));
         llParaentLayout.setOrientation(LinearLayout.VERTICAL);
-        view1.setHeight(100);
+       /* view1.setHeight(100);
         view1.setWidth(1000);
         view2.setHeight(100);
         view2.setWidth(1000);
         view3.setHeight(100);
         view3.setWidth(1000);
         view4.setHeight(100);
-        view4.setWidth(1000);
+        view4.setWidth(1000);*/
     }
 
-    private Animation initMoveAnimation(long delay) {
+    /*private Animation initMoveAnimation(long delay) {
         TranslateAnimation animation = new TranslateAnimation(1000,0,0,0);
         animation.setDuration(2000);
         animation.setFillAfter(false);
         animation.setStartOffset(delay);
         return animation;
-    }
+    }*/
 
     private Animation initAppearAnimation(long delay) {
         TranslateAnimation animation = new TranslateAnimation(1000,0,0,0);
