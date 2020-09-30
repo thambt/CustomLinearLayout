@@ -5,3 +5,4 @@ console.log('ooooooiuhug')
 console.log(MyArray)
 let buiduong = "ngumuoi";
 let aa;
+let c;
